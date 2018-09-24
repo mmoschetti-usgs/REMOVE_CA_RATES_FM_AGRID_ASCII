@@ -1,5 +1,5 @@
 INST_DIR = $(HOME)/bin
-BIN  = remove_CA_rates_fm_agrid
+BIN  = remove_CA_rates_fm_agrid_ascii
 
 # need to include the math library when the math.h header file is used
 #cflags = -O -lm
