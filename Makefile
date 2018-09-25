@@ -12,7 +12,7 @@ CC = gcc
 
 DBG =  -g
 #FOBJS = mod_agrid_file_floors.o read_header.o Parse_Text.o
-FOBJS = $(BIN).o Parse_Text.o inpolyint.o read_polygon_files.o
+FOBJS = $(BIN).o inpolyint.o read_polygon_files.o read_agrid_vals.o
 
 $(BIN) : $(FOBJS)
 	$(CC) $(CFLAGS) $(FOBJS) -o $(BIN)
